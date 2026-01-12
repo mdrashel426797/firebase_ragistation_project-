@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172638230724",
+    "project_id": "fir-cli-d4bbd",
+    "storage_bucket": "fir-cli-d4bbd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172638230724:android:1adfad1de5838af6129191",
+        "android_client_info": {
+          "package_name": "com.example.ragister_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDigt16lHkxarTaDHqcndW0jOUtLMlrUlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
