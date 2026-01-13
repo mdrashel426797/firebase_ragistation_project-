@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ragister_firebase/core/route/route.dart';
 
-import 'home_page.dart';
+import '../../home_page.dart';
 
 class LoningController extends GetxController {
   TextEditingController email = TextEditingController();

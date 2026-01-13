@@ -54,6 +54,9 @@ class Ragestation extends StatelessWidget {
                     SizedBox(height: 15),
 
                     TextFormField(
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder()
+                      ),
                       controller: controller.email,
                       validator: (value) {
                         if (value == null || value.isEmpty) {
@@ -78,6 +81,9 @@ class Ragestation extends StatelessWidget {
 
 
                     TextFormField(
+                      decoration: InputDecoration(
+                          border: OutlineInputBorder()
+                      ),
                       controller: controller.password,
                       obscureText: true,
                       validator: (value) {
@@ -137,7 +143,7 @@ class Ragestation extends StatelessWidget {
                             child: Text(
                               "Ragistrasion",
                               style: TextStyle(
-                                fontSize: 17,
+                                fontSize: 13,
                                 fontWeight: FontWeight.w700,
                                 color: Color(0xFF0D1361),
                               ),
